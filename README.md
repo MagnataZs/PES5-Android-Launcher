@@ -6,13 +6,17 @@ Port Android ARM64 não oficial de **Pro Evolution Soccer 5**, baseado na versã
 
 Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/PES5-Android-Launcher/releases/latest).
 
-- **Versão:** 1.0
+- **Versão:** 1.0.1 (versionCode 2)
 - **Pacote:** `com.datfooldive.pes5`
 - **Arquitetura:** ARM64 (`arm64-v8a`)
 - **Android:** 10 (API 29) ou mais recente
 - **Gráficos:** dispositivo com suporte a Vulkan 1.1 ou posterior
 - **Tamanho do APK:** aproximadamente 45 MB
 - **Assinatura:** chave de debug do projeto; build de teste, não assinatura de distribuição de loja
+
+### Correção v1.0.1
+
+A recompilação inclui o ponto de entrada indireto `0x00037950`, que o runtime reportou como ausente quando a partida começava a carregar o campo. A correção foi compilada e empacotada, mas ainda precisa ser confirmada no aparelho que apresentou o problema.
 
 ### Instalação e arquivos do jogo
 
@@ -22,12 +26,12 @@ Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/P
 
 **A ISO e os arquivos de dados do disco não são incluídos nesta release.** É necessário fornecer uma cópia do jogo que você tenha direito de usar. O APK contém código nativo recompilado a partir do executável do jogo.
 
-### Integridade do APK v1.0
+### Integridade do APK v1.0.1
 
 SHA-256:
 
 ```text
-fea215f7ac45fad2543d2833a13201f9781659e8616946459f5e5ac3d3e3e53e
+0f2f175832842c403d55f561dc3f25d5bbddc1ee73caab900c9b98668975f2eb
 ```
 
 ## Estado e créditos
