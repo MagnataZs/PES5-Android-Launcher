@@ -1,14 +1,13 @@
-## PES 5 Android — v1.0.2
+## PES 5 Android — v1.0.3
 
-A tela inicial ganhou duas ferramentas para facilitar suporte e proteger o progresso:
-
-- **Export logs:** grava os relatórios e erros do jogo no armazenamento privado e permite salvar uma cópia pelo seletor de arquivos do Android.
-- **Back up saves:** cria um arquivo ZIP com as pastas `hdd` do jogo e do armazenamento privado do app quando existirem. Os arquivos originais não são movidos nem apagados.
-- Mantém o ponto de entrada `0x00037950` incluído na recompilação da v1.0.1 após o crash relatado ao iniciar uma partida.
-- `versionCode` 3 / `versionName` 1.0.2; mesma assinatura das versões anteriores, instalável como atualização.
-- APK compilado, assinatura verificada e arquivo ZIP validado. Os novos botões precisam ser testados no aparelho.
-- Android 10 (API 29) ou superior; Vulkan 1.1+; ARM64 (`arm64-v8a`).
-- A ISO e os dados do jogo não estão incluídos. Use somente uma cópia obtida legalmente.
+- Launcher redesenhado em português, com paleta noturna em verde, status do jogo e créditos para @diparis_4m, @_silvaxis7 e MagnataZs.
+- Adicionado o preset **Desempenho Máximo**: renderização a 50%, antisserrilhamento e sombras desligados, frame skip ligado e VSync desligado.
+- Adicionado o preset **Equilibrado** e controles no launcher para frame skip e qualidade das sombras.
+- Alterações de VSync feitas durante uma partida são guardadas e aplicadas no próximo início do jogo; isso evita recriar a swapchain em runtime, comportamento que causava piscadas em alguns aparelhos.
+- Mantém exportação de logs, backup ZIP dos saves e a função recompilada `0x00037950` do hotfix anterior.
+- `versionCode` 4 / `versionName` 1.0.3; assinatura igual à das versões anteriores, para instalar como atualização.
+- Requisitos: Android 10 (API 29) ou superior, Vulkan 1.1+ e ARM64 (`arm64-v8a`).
+- ISO e arquivos do jogo não estão incluídos. Use somente uma cópia obtida legalmente.
 - Assinado com a chave de debug do projeto; não destinado à publicação em loja.
 
-SHA-256 do APK: `4c59b71ddbb6c10628b82dd24a167828cefe84fcb3a38a7a7791af7d3041efb2`
+SHA-256 do APK: `f524295c60e6e7923ed0058347141bbc20933279e42ba30e025010295c6d44b7`
