@@ -6,7 +6,7 @@ Port Android ARM64 não oficial de **Pro Evolution Soccer 5**, baseado na versã
 
 Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/PES5-Android-Launcher/releases/latest).
 
-- **Versão:** 1.0.1 (versionCode 2)
+- **Versão:** 1.0.2 (versionCode 3)
 - **Pacote:** `com.datfooldive.pes5`
 - **Arquitetura:** ARM64 (`arm64-v8a`)
 - **Android:** 10 (API 29) ou mais recente
@@ -14,9 +14,9 @@ Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/P
 - **Tamanho do APK:** aproximadamente 45 MB
 - **Assinatura:** chave de debug do projeto; build de teste, não assinatura de distribuição de loja
 
-### Correção v1.0.1
+### Ferramentas v1.0.2
 
-A recompilação inclui o ponto de entrada indireto `0x00037950`, que o runtime reportou como ausente quando a partida começava a carregar o campo. A correção foi compilada e empacotada, mas ainda precisa ser confirmada no aparelho que apresentou o problema.
+Na tela inicial, **TOOLS → Export logs** salva uma cópia do log do jogo usando o seletor de arquivos do Android. **Back up saves** cria um ZIP das pastas `hdd` encontradas junto ao jogo e no armazenamento privado do app; os saves originais não são movidos nem apagados. A v1.0.2 mantém também a entrada recompilada `0x00037950` incluída no hotfix v1.0.1 para o início da partida.
 
 ### Instalação e arquivos do jogo
 
@@ -26,12 +26,12 @@ A recompilação inclui o ponto de entrada indireto `0x00037950`, que o runtime 
 
 **A ISO e os arquivos de dados do disco não são incluídos nesta release.** É necessário fornecer uma cópia do jogo que você tenha direito de usar. O APK contém código nativo recompilado a partir do executável do jogo.
 
-### Integridade do APK v1.0.1
+### Integridade do APK v1.0.2
 
 SHA-256:
 
 ```text
-0f2f175832842c403d55f561dc3f25d5bbddc1ee73caab900c9b98668975f2eb
+4c59b71ddbb6c10628b82dd24a167828cefe84fcb3a38a7a7791af7d3041efb2
 ```
 
 ## Estado e créditos

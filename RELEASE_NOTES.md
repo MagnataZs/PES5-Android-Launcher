@@ -1,13 +1,14 @@
-## PES 5 Android — v1.0.1
+## PES 5 Android — v1.0.2
 
-Atualização do APK Android ARM64 após o runtime reportar uma chamada indireta sem função recompilada (`0x00037950`) ao iniciar uma partida.
+A tela inicial ganhou duas ferramentas para facilitar suporte e proteger o progresso:
 
-- Inclui `0x00037950` como ponto de entrada extra na recompilação do XBE.
-- `versionCode` 2 e `versionName` 1.0.1; mesma assinatura da v1.0 para permitir instalar por cima.
-- APK compilado, assinatura verificada e arquivo ZIP validado. A correção ainda precisa ser confirmada no aparelho afetado.
-- Android 10 (API 29) ou superior; requer Vulkan 1.1+.
-- Pacote: `com.datfooldive.pes5` (ARM64 / `arm64-v8a`).
-- A ISO e os arquivos de dados do disco não estão incluídos. Use somente uma cópia obtida legalmente.
+- **Export logs:** grava os relatórios e erros do jogo no armazenamento privado e permite salvar uma cópia pelo seletor de arquivos do Android.
+- **Back up saves:** cria um arquivo ZIP com as pastas `hdd` do jogo e do armazenamento privado do app quando existirem. Os arquivos originais não são movidos nem apagados.
+- Mantém o ponto de entrada `0x00037950` incluído na recompilação da v1.0.1 após o crash relatado ao iniciar uma partida.
+- `versionCode` 3 / `versionName` 1.0.2; mesma assinatura das versões anteriores, instalável como atualização.
+- APK compilado, assinatura verificada e arquivo ZIP validado. Os novos botões precisam ser testados no aparelho.
+- Android 10 (API 29) ou superior; Vulkan 1.1+; ARM64 (`arm64-v8a`).
+- A ISO e os dados do jogo não estão incluídos. Use somente uma cópia obtida legalmente.
 - Assinado com a chave de debug do projeto; não destinado à publicação em loja.
 
-SHA-256 do APK: `0f2f175832842c403d55f561dc3f25d5bbddc1ee73caab900c9b98668975f2eb`
+SHA-256 do APK: `4c59b71ddbb6c10628b82dd24a167828cefe84fcb3a38a7a7791af7d3041efb2`
