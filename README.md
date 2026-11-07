@@ -6,7 +6,7 @@ Port Android ARM64 não oficial de **Pro Evolution Soccer 5**, baseado na versã
 
 Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/PES5-Android-Launcher/releases/latest).
 
-- **Versão:** 1.1.3 (`versionCode` 14)
+- **Versão:** 1.1.4 (`versionCode` 15)
 - **Pacote:** `com.datfooldive.pes5`
 - **Arquitetura:** ARM64 (`arm64-v8a`)
 - **Android:** 10 (API 29) ou mais recente
@@ -14,7 +14,14 @@ Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/P
 - **Tamanho do APK:** aproximadamente 45 MB
 - **Assinatura:** chave de debug do projeto; mantém a assinatura das builds anteriores e permite atualização, mas não é assinatura para loja de aplicativos
 
-## Gestos touchscreen corrigidos
+## Novidades da v1.1.4
+
+- **Hotfix Vulkan:** o alinhamento do buffer uniforme agora respeita o limite informado pela GPU. A validação do cache SPIR-V também foi restaurada para descartar shaders corrompidos antes de criar módulos Vulkan.
+- **Launcher simplificado:** removidos o cartão de presets de desempenho, a exportação de logs e o backup de saves. As opções manuais do jogo continuam disponíveis.
+- **Privacidade:** o app não mantém nem exporta logs próprios; os arquivos de log anteriores do app são removidos na primeira inicialização desta versão. Os saves não são apagados nem alterados.
+- O ajuste foi testado após a queda de fluidez reportada; o desempenho pode variar conforme aparelho e configuração gráfica.
+
+## Controles touchscreen
 
 Os botões seguem o mapeamento padrão do PES 5 para Xbox: **A** passe curto, **B** passe longo/cruzamento, **X** chute e **Y** passe enfiado. Durante o deslize, uma barra verde acompanha o dedo e mostra a jogada; solte para confirmar.
 
@@ -24,12 +31,6 @@ Os botões seguem o mapeamento padrão do PES 5 para Xbox: **A** passe curto, **
 - **Y para cima:** enfiada aérea.
 
 Toques sem deslizar mantêm o comando original. Controles físicos não são alterados.
-
-## Recursos mantidos
-
-A v1.1.3 mantém os perfis gráficos **Desempenho**, **Equilibrado** e **Qualidade Visual**, além de ajustes manuais. O perfil de desempenho usa resolução de renderização em 50%, antisserrilhamento e sombras desligados, frame skip ligado e VSync ligado. O perfil equilibrado usa 67% de resolução e sombras baixas. O perfil de qualidade usa resolução em 100%, SMAA e sombras médias.
-
-Também estão incluídos a exportação de logs, backup ZIP dos saves sem mover ou apagar os originais, correção recompilada `0x00037950` para o crash ao iniciar uma partida, e os créditos de @diparis_4m, @_silvaxis7 e MagnataZs.
 
 ## Instalação e arquivos do jogo
 
@@ -41,12 +42,12 @@ Também estão incluídos a exportação de logs, backup ZIP dos saves sem mover
 
 **Requisitos:** Android 10 ou superior, ARM64 (`arm64-v8a`) e Vulkan 1.1 ou superior. A ISO e os dados do jogo não são incluídos nesta release; forneça sua própria cópia legal.
 
-## Integridade do APK v1.1.3
+## Integridade do APK v1.1.4
 
 SHA-256:
 
 ```text
-4799e2848b9a4c9084a07681338f07af83a87b025d5621cdde00ec18e3388941
+45d7be6d05840fe8d9910005282fd1f06fecc68aa54c523f89322d3b43b258e4
 ```
 
 ## Estado e créditos
