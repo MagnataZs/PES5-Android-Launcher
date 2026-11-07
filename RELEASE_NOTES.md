@@ -1,6 +1,6 @@
 ## Instalação — leia primeiro
 
-1. **Baixe o APK desta versão:** nesta página, expanda **Assets** e toque em `PES5-Android-launcher-v1.1.1.apk`.
+1. **Baixe o APK desta versão:** nesta página, expanda **Assets** e toque em `PES5-Android-v1.1.2-gesture-selector.apk`.
 2. **Instale:** abra o APK baixado. Se o Android bloquear a instalação, permita **Instalar apps desconhecidos** para o navegador ou gerenciador de arquivos usado e tente novamente.
 3. **Atualização:** instale por cima e escolha **Atualizar**. Esta build mantém a assinatura de debug das versões anteriores. Não desinstale antes, pois isso pode apagar dados privados do aplicativo.
 4. **Prepare o jogo:** permita acesso aos arquivos quando solicitado. O launcher não inclui o jogo: use uma cópia de PES 5 para Xbox obtida legalmente. Toque em **Selecionar arquivo do jogo** e escolha sua ISO; o launcher copia o arquivo para `/storage/emulated/0/PES5`. Como alternativa, coloque a ISO ou os arquivos extraídos nessa pasta.
@@ -10,15 +10,16 @@
 
 ---
 
-## PES 5 Android — v1.1.1
+## PES 5 Android — v1.1.2
 
-- `versionCode` 12 / `versionName` 1.1.1; APK ARM64 de aproximadamente 45 MB.
-- **Novos gestos nos controles touchscreen:** B + deslizar para cima faz cavadinha; B + deslizar para baixo faz chute colocado; X + deslizar para cima aciona o cruzamento antecipado; Y + deslizar para cima aciona a enfiada aérea.
-- Toques simples continuam enviando o comando original. O modificador do gesto só fica ativo enquanto o dedo mantém aquele botão pressionado. Controles físicos não são alterados.
+- `versionCode` 13 / `versionName` 1.1.2; APK ARM64 de aproximadamente 45 MB.
+- **Barra visual de gestos:** ao deslizar em um botão de ação, uma barra verde acompanha o dedo e mostra o nome da jogada; solte para confirmar.
+- B + deslizar para cima: **Cavadinha**. B + deslizar para baixo: **Chute colocado**. X + deslizar para cima: **Cruzamento antecipado**. Y + deslizar para cima: **Enfiada aérea**.
+- Toques simples continuam enviando o comando original. Controles físicos não são alterados.
 - Mantém os perfis gráficos, exportação de logs, backup ZIP dos saves sem alterar os originais e o hotfix recompilado `0x00037950` para o início de partidas.
 - Mantém os créditos para @diparis_4m, @_silvaxis7 e MagnataZs.
 - Assinatura de debug do projeto, igual às versões anteriores; não destinada à publicação em loja.
 
-**SHA-256:** `16d6d8b63e2ff65ab3991f0366d99cce841f031f0baad71ce15f23fa331a404e`
+**SHA-256:** `46058769f5a46e4770f482c8abfad478af7b34b98b45361379234204bb88a256`
 
 **Propriedade intelectual:** PES 5 © 2005 Konami. O projeto não é afiliado ou endossado pela Konami. O usuário deve fornecer sua própria cópia legal do jogo; nenhum dado da ISO está anexado.

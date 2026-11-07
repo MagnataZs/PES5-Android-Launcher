@@ -6,7 +6,7 @@ Port Android ARM64 não oficial de **Pro Evolution Soccer 5**, baseado na versã
 
 Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/PES5-Android-Launcher/releases/latest).
 
-- **Versão:** 1.1.1 (`versionCode` 12)
+- **Versão:** 1.1.2 (`versionCode` 13)
 - **Pacote:** `com.datfooldive.pes5`
 - **Arquitetura:** ARM64 (`arm64-v8a`)
 - **Android:** 10 (API 29) ou mais recente
@@ -14,13 +14,13 @@ Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/P
 - **Tamanho do APK:** aproximadamente 45 MB
 - **Assinatura:** chave de debug do projeto; mantém a assinatura das builds anteriores e permite atualização, mas não é assinatura para loja de aplicativos
 
-## Novidade principal: gestos nos controles touchscreen
+## Gestos com barra de seleção visual
 
-Os botões touchscreen agora aceitam deslizes verticais para acionar combinações do PES 5: no **B**, deslize para cima para cavadinha ou para baixo para chute colocado; no **X**, deslize para cima para cruzamento antecipado; no **Y**, deslize para cima para enfiada aérea. Um toque sem deslizar mantém a ação original do botão. O recurso se aplica apenas aos controles na tela; controles físicos não são alterados.
+Ao deslizar em um botão de ação, uma barra verde acompanha o movimento e exibe o nome da jogada selecionada. Solte para confirmar. No **B**, deslize para cima para **Cavadinha** ou para baixo para **Chute colocado**; no **X**, deslize para cima para **Cruzamento antecipado**; no **Y**, deslize para cima para **Enfiada aérea**. Um toque simples, sem deslizar, mantém o comando original. O recurso se aplica apenas aos controles na tela; controles físicos não são alterados.
 
 ## Recursos mantidos
 
-A v1.1.1 mantém os perfis gráficos **Desempenho**, **Equilibrado** e **Qualidade Visual**, além de ajustes manuais. O perfil de desempenho usa resolução de renderização em 50%, antisserrilhamento e sombras desligados, frame skip ligado e VSync ligado. O perfil equilibrado usa 67% de resolução e sombras baixas. O perfil de qualidade usa resolução em 100%, SMAA e sombras médias.
+A v1.1.2 mantém os perfis gráficos **Desempenho**, **Equilibrado** e **Qualidade Visual**, além de ajustes manuais. O perfil de desempenho usa resolução de renderização em 50%, antisserrilhamento e sombras desligados, frame skip ligado e VSync ligado. O perfil equilibrado usa 67% de resolução e sombras baixas. O perfil de qualidade usa resolução em 100%, SMAA e sombras médias.
 
 Também estão incluídos a exportação de logs, backup ZIP dos saves sem mover ou apagar os originais, correção recompilada `0x00037950` para o crash ao iniciar uma partida, e os créditos de @diparis_4m, @_silvaxis7 e MagnataZs.
 
@@ -34,12 +34,12 @@ Também estão incluídos a exportação de logs, backup ZIP dos saves sem mover
 
 **Requisitos:** Android 10 ou superior, ARM64 (`arm64-v8a`) e Vulkan 1.1 ou superior. A ISO e os dados do jogo não são incluídos nesta release; forneça sua própria cópia legal.
 
-## Integridade do APK v1.1.1
+## Integridade do APK v1.1.2
 
 SHA-256:
 
 ```text
-16d6d8b63e2ff65ab3991f0366d99cce841f031f0baad71ce15f23fa331a404e
+46058769f5a46e4770f482c8abfad478af7b34b98b45361379234204bb88a256
 ```
 
 ## Estado e créditos
