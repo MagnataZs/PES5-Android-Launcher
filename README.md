@@ -6,21 +6,23 @@ Port Android ARM64 não oficial de **Pro Evolution Soccer 5**, baseado na versã
 
 Baixe o APK mais recente na página de [Releases](https://github.com/MagnataZs/PES5-Android-Launcher/releases/latest).
 
-- **Versão:** 1.0.6 (`versionCode` 7)
+- **Versão:** 1.1.1 (`versionCode` 12)
 - **Pacote:** `com.datfooldive.pes5`
 - **Arquitetura:** ARM64 (`arm64-v8a`)
 - **Android:** 10 (API 29) ou mais recente
 - **Gráficos:** dispositivo com suporte a Vulkan 1.1 ou posterior
 - **Tamanho do APK:** aproximadamente 45 MB
-- **Assinatura:** chave de debug do projeto; mantém a assinatura da v1.0.5 e instala como atualização, mas não é assinatura para loja de aplicativos
+- **Assinatura:** chave de debug do projeto; mantém a assinatura das builds anteriores e permite atualização, mas não é assinatura para loja de aplicativos
 
-## Novidades da v1.0.6
+## Novidade principal: gestos nos controles touchscreen
 
-O launcher recebeu uma tela inicial com hierarquia visual renovada e três perfis gráficos: **Desempenho**, **Equilibrado** e **Qualidade Visual**. O perfil de desempenho usa resolução de renderização em 50%, antisserrilhamento e sombras desligados, frame skip ligado e mantém VSync ligado. O perfil equilibrado usa 67% de resolução e sombras baixas. O perfil de qualidade usa resolução em 100%, SMAA e sombras médias. As configurações também podem ser ajustadas individualmente.
+Os botões touchscreen agora aceitam deslizes verticais para acionar combinações do PES 5: no **B**, deslize para cima para cavadinha ou para baixo para chute colocado; no **X**, deslize para cima para cruzamento antecipado; no **Y**, deslize para cima para enfiada aérea. Um toque sem deslizar mantém a ação original do botão. O recurso se aplica apenas aos controles na tela; controles físicos não são alterados.
 
-O loop de frames agora reduz a janela final de espera ativa para até 250 microssegundos, com uma etapa intermediária de espera curta. A mudança busca reduzir tempo de CPU ocupado durante a espera, mantendo a cadência calculada do jogo. **O impacto em consumo, temperatura e frametime ainda não foi medido em aparelhos; não há ganho de FPS garantido.** A lógica/simulação do jogo e o comportamento de VSync não foram deliberadamente alterados por essa otimização.
+## Recursos mantidos
 
-A versão mantém exportação de logs e backup ZIP dos saves, com as ferramentas em thread separada do scanner; o backup não move nem apaga os saves originais. Também mantém a função recompilada `0x00037950` que corrigiu o crash ao iniciar uma partida e os créditos de @diparis_4m, @_silvaxis7 e MagnataZs.
+A v1.1.1 mantém os perfis gráficos **Desempenho**, **Equilibrado** e **Qualidade Visual**, além de ajustes manuais. O perfil de desempenho usa resolução de renderização em 50%, antisserrilhamento e sombras desligados, frame skip ligado e VSync ligado. O perfil equilibrado usa 67% de resolução e sombras baixas. O perfil de qualidade usa resolução em 100%, SMAA e sombras médias.
+
+Também estão incluídos a exportação de logs, backup ZIP dos saves sem mover ou apagar os originais, correção recompilada `0x00037950` para o crash ao iniciar uma partida, e os créditos de @diparis_4m, @_silvaxis7 e MagnataZs.
 
 ## Instalação e arquivos do jogo
 
@@ -32,12 +34,12 @@ A versão mantém exportação de logs e backup ZIP dos saves, com as ferramenta
 
 **Requisitos:** Android 10 ou superior, ARM64 (`arm64-v8a`) e Vulkan 1.1 ou superior. A ISO e os dados do jogo não são incluídos nesta release; forneça sua própria cópia legal.
 
-## Integridade do APK v1.0.6
+## Integridade do APK v1.1.1
 
 SHA-256:
 
 ```text
-257a1ccda1b0be6804400d9cf5e38ca90e329ed7ea7e675f8ae9450da3f2bd7d
+16d6d8b63e2ff65ab3991f0366d99cce841f031f0baad71ce15f23fa331a404e
 ```
 
 ## Estado e créditos
